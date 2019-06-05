@@ -3,7 +3,7 @@ const assert = chai.assert;
 
 describe('ベーシックメモリー', function() {
     it('メモリーのセーブと削除', function() {
-        const BasicMemory = require('../src/Memory/BasicMemory');
+        const BasicMemory = require('../src/memory/BasicMemory');
         const testMemory = new BasicMemory('test', 0,1,2,3,4,-5);
         const obj = testMemory.generateObject();
         assert.isObject(obj);

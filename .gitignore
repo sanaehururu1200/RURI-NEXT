@@ -117,4 +117,8 @@ Temporary Items
 
 db/*
 
+config/config.js
+
+data/**/*
+
 !.gitkeep
